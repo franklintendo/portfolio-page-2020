@@ -37,8 +37,8 @@
         "title": "Weather Dashboard",
         "image": "./img/projects/weather-dashboard.jpg",
         "deets": {
-            "small": "Includes: AJAX, jQuery, Bootstrap",
-            "text": "Check weather conditions by city (powered by OpenWeather API)."
+            "small": "Includes: jQuery, Bootstrap, OpenWeather API",
+            "text": "Check weather conditions by city."
           },
         "demo": "https://franklintendo.github.io/homework-6-weather-dashboard/",
         "github": "https://github.com/franklintendo/homework-6-weather-dashboard"
@@ -48,8 +48,8 @@
         "title": "The Viral Effect",
         "image": "./img/projects/the-viral-effect.jpg",
         "deets": {
-            "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js",
-            "text": "Track COVID-19 in the US by number of cases and the impact on industry (powered by John Hopkins University and World Trading Data API)."
+            "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js, World Trading Data API",
+            "text": "Track the impact of COVID-19 on industries in the US."
           },
         "demo": "https://hidden-everglades-28296.herokuapp.com/",
         "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
@@ -59,10 +59,32 @@
         "title": "Coding Quiz Challenge",
         "image": "./img/projects/coding-quiz.jpg",
         "deets": {
-            "small": "Includes: Javascript, Bootstrap<",
+            "small": "Includes: Javascript, Bootstrap",
             "text": "Answer multiple choice questions about coding to rack up a high score."
           },
         "demo": "https://franklintendo.github.io/homework-4-code-quiz/",
         "github": "https://github.com/franklintendo/homework-4-code-quiz"
+    },
+    {
+        "id": 7,
+        "title": "Employee Summary Generator",
+        "image": "./img/projects/employee-summary.gif",
+        "deets": {
+            "small": "Includes: Node.js, Inquirer",
+            "text": "A Node command-line interface that generates a team page in HTML."
+          },
+        "demo": "https://youtu.be/t-sPqBDT3xw",
+        "github": "https://github.com/franklintendo/employee-summary"
+    },
+    {
+        "id": 8,
+        "title": "The Cinefile",
+        "image": "./img/projects/the-cinefile.jpg",
+        "deets": {
+            "small": "Includes: jQuery, Bootstrap, TMDb API, OMDb API",
+            "text": "Filter through top-rated movies by genre, date, and audience."
+          },
+        "demo": "https://youtu.be/t-sPqBDT3xw",
+        "github": "https://github.com/franklintendo/employee-summary"
     }
 ]
