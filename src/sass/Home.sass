@@ -71,7 +71,10 @@ html, body, #root
         font-weight: bold;
         background-color: $white;
     &--deets
-        background-color: $white;      
+        background-color: $white;
+        span
+            font-size: 14px;
+            font-style: italic;      
         small
             font-style: italic;      
 
@@ -81,3 +84,13 @@ html, body, #root
             font-size: 3.5rem;
         &-desc
             font-size: 1.5rem;
+
+@include media-breakpoint-only(lg)
+    .projects
+        &--deets
+            min-height: 95px;
+
+@include media-breakpoint-only(xl)
+    .projects
+        &--deets
+            min-height: 115px;

@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Holiday Mad Libs",
+        "image": "./img/projects/mad-libs.jpg",
+        "deets": {
+            "small": "Includes: React, React Bootstrap, Sass",
+            "text": "Enter in text to generate festive stories."
+          },
+        "demo": "https://franklintendo.github.io/holiday-mad-libs/",
+        "github": "https://github.com/franklintendo/holiday-mad-libs"
+    },
+    {
+        "id": 2,
+        "title": "Books Search",
+        "image": "./img/projects/book-search.jpg",
+        "deets": {
+            "small": "Includes: MongoDB, Express, Node.js, React, Bootstrap, Google Books API",
+            "text": "Find and save books."
+          },
+        "demo": "https://stark-falls-12658.herokuapp.com/",
+        "github": "https://github.com/franklintendo/google-books-search"
+    },
+    {
+        "id": 3,
+        "title": "Burger Logger",
+        "image": "./img/projects/burger-logger.jpg",
+        "deets": {
+            "small": "Includes: MySQL, Node.js, jQuery, Bootstrap, Express Handlebars",
+            "text": "Add your own burgers to devour."
+          },
+        "demo": "https://sleepy-ridge-45932.herokuapp.com/",
+        "github": "https://github.com/franklintendo/burger-logger"
+    },
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "image": "./img/projects/weather-dashboard.jpg",
+        "deets": {
+            "small": "Includes: AJAX, jQuery, Bootstrap",
+            "text": "Check weather conditions by city (powered by OpenWeather API)."
+          },
+        "demo": "https://franklintendo.github.io/homework-6-weather-dashboard/",
+        "github": "https://github.com/franklintendo/homework-6-weather-dashboard"
+    },
+    {
+        "id": 5,
+        "title": "The Viral Effect",
+        "image": "./img/projects/the-viral-effect.jpg",
+        "deets": {
+            "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js",
+            "text": "Track COVID-19 in the US by number of cases and the impact on industry (powered by John Hopkins University and World Trading Data API)"
+          },
+        "demo": "https://hidden-everglades-28296.herokuapp.com/",
+        "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
+    }
+]
