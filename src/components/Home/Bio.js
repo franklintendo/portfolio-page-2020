@@ -18,9 +18,11 @@ function Bio() {
                                 <p class="bio--links mt-3 d-inline-block px-5 pt-3">          
                                     <a className="px-3 d-inline-block" href="https://www.linkedin.com/in/francis-moran-63970665/" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</a>
 
-                                    <a className="px-3 py-2 d-inline-block" href="https://github.com/franklintendo" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a>
+                                    <a className="px-3 d-inline-block" href="https://github.com/franklintendo" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a>
 
                                     <a className="px-3 d-inline-block" href="https://www.instagram.com/favlonmaurice/" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</a>
+
+                                    <a className="px-3 d-inline-block" href="mailto:info@francisfrankmoran.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Email</a>
                                 </p>
                         </Col>
                         <Col md={6} xl={7} className="bio--animation">
