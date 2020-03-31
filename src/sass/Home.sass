@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+    
 /* color scheme */
 $dark: rgba(73, 73, 73, 1);
 $red: rgba(237, 106, 90, 1);
@@ -50,12 +52,15 @@ html, body, #root
         box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5); 
     &--img-container
         overflow: hidden;
+        border-top-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
     &--link
         background-color: $red;
         color: $white;
         border-radius: 0.75rem;
         font-weight: bold;
         transition: background-color 0.3s;
+        
         &:hover
             background-color: $blue;
             color: $white;
@@ -69,3 +74,10 @@ html, body, #root
         background-color: $white;      
         small
             font-style: italic;      
+
+@include media-breakpoint-only(xs)
+    .home-hero
+        &-title
+            font-size: 3.5rem;
+        &-desc
+            font-size: 1.5rem;
