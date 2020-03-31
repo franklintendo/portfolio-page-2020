@@ -15,16 +15,7 @@ class Projects extends Component {
             <Container fluid className="py-5 projects--container" style={{}}>
                 <Row>
                     <Project projects={this.state.projects} />
-                    <Col md={4} lg={3}>
-                          <p>Coding Quiz Challenge</p>
-                          <p>Answer multiple choice questions about coding to rack up a high score.
-                                <br/>
-                          <small>Includes: Javascript, Bootstrap</small>
-                          </p>
-                          <a href="https://franklintendo.github.io/homework-4-code-quiz/" rel="noopener noreferrer" target="_blank">Demo</a>
-                          &nbsp;
-                          <a href="https://github.com/franklintendo/homework-4-code-quiz" rel="noopener noreferrer" target="_blank">Github</a>
-                    </Col>
+                  
                     
                     <Col md={4} lg={3}>
                           <p>Employee Summary Generator</p>

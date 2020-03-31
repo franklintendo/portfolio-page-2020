@@ -49,9 +49,20 @@
         "image": "./img/projects/the-viral-effect.jpg",
         "deets": {
             "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js",
-            "text": "Track COVID-19 in the US by number of cases and the impact on industry (powered by John Hopkins University and World Trading Data API)"
+            "text": "Track COVID-19 in the US by number of cases and the impact on industry (powered by John Hopkins University and World Trading Data API)."
           },
         "demo": "https://hidden-everglades-28296.herokuapp.com/",
         "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
+    },
+    {
+        "id": 6,
+        "title": "Coding Quiz Challenge",
+        "image": "./img/projects/coding-quiz.jpg",
+        "deets": {
+            "small": "Includes: Javascript, Bootstrap<",
+            "text": "Answer multiple choice questions about coding to rack up a high score."
+          },
+        "demo": "https://franklintendo.github.io/homework-4-code-quiz/",
+        "github": "https://github.com/franklintendo/homework-4-code-quiz"
     }
 ]
