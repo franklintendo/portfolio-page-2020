@@ -44,9 +44,12 @@ html, body, #root
         background-image: url('./img/subtle_white_feathers_@2X.png');
         background-size: 500px 333px;
     &--card
-        background-color: $light;
+        background-color: $white;
         border-radius: 0.75rem;
+        overflow: hidden;
+        position: relative;
         color: $dark;   
+        padding-bottom: 56px;
         -webkit-box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5);
         -moz-box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5);
         box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5); 
@@ -54,6 +57,10 @@ html, body, #root
         overflow: hidden;
         border-top-left-radius: 0.75rem;
         border-top-right-radius: 0.75rem;
+    &--links-container
+        background-color: $light;
+        position: absolute;
+        bottom: 0;
     &--link
         background-color: $red;
         color: $white;
@@ -83,13 +90,3 @@ html, body, #root
             font-size: 3.5rem;
         &-desc
             font-size: 1.5rem;
-
-@include media-breakpoint-only(lg)
-    .projects
-        &--deets
-            min-height: 95px;
-
-@include media-breakpoint-only(xl)
-    .projects
-        &--deets
-            min-height: 115px;

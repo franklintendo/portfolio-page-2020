@@ -13,7 +13,7 @@ class Projects extends Component {
         return(
 
             <Container fluid className="py-5 projects--container" style={{}}>
-                <Row>
+                <Row className="justify-content-center">
                     <Project projects={this.state.projects} />
                 </Row>
             </Container>
