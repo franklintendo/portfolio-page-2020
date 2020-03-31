@@ -51,7 +51,7 @@
             "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js, World Trading Data API",
             "text": "Track the impact of COVID-19 on industries in the US."
           },
-        "demo": "https://hidden-everglades-28296.herokuapp.com/",
+        "demo": "https://hidden-everglades-28296.herokuapp.com/home",
         "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
     },
     {
@@ -84,7 +84,7 @@
             "small": "Includes: jQuery, Bootstrap, TMDb API, OMDb API",
             "text": "Filter through top-rated movies by genre, date, and audience."
           },
-        "demo": "https://youtu.be/t-sPqBDT3xw",
-        "github": "https://github.com/franklintendo/employee-summary"
+        "demo": "https://franklintendo.github.io/the-cinefile/recommendations.html",
+        "github": "https://github.com/franklintendo/the-cinefile"
     }
 ]
