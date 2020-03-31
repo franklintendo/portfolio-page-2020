@@ -14,7 +14,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.3.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "scroll-out": "^2.2.8"
   },
   "scripts": {
     "start": "react-scripts start",

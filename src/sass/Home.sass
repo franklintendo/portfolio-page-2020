@@ -1,6 +1,19 @@
+/* color scheme */
+$dark: rgba(73, 73, 73, 1);
+$red: rgba(237, 106, 90, 1);
+$light: rgba(252, 222, 190, 1);
+$blue: rgba(125, 128, 218, 1);
+$white: rgba(250, 250, 255, 1);
+$green: rgba(155, 193, 188, 1);
+
+/* font families */
+$sansSerif: 'Raleway', sans-serif;
+$serif: 'Lora', serif;
+    
 html, body, #root 
     height: 100%;
     margin: 0;
+    font-family: $sansSerif;
 
 .home-hero
     background-image: url('./img/DSCF5491.jpg');
@@ -8,14 +21,51 @@ html, body, #root
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: $dark;
+    color: white;
+    text-shadow: -1px -1px 5px rgba(255, 255, 255, 0.1), 1px 1px 5px rgba(0, 0, 0, 0.5);;
     .row 
         background-color: rgba(0, 0, 0, 0.4);
     &-title 
         font-size: 4.5rem;
+        font-family: $sansSerif;
+        font-weight: bold;
     &-desc
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        font-family: $serif;
     a 
         color: #FFFFFF;
-    
+
+.projects
+    &--container
+        background-color: $green;
+        background-image: url('./img/subtle_white_feathers_@2X.png');
+        background-size: 500px 333px;
+    &--card
+        background-color: $light;
+        border-radius: 0.75rem;
+        color: $dark;   
+        -webkit-box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5);
+        -moz-box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5);
+        box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.5); 
+    &--img-container
+        overflow: hidden;
+    &--link
+        background-color: $red;
+        color: $white;
+        border-radius: 0.75rem;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        &:hover
+            background-color: $blue;
+            color: $white;
+            text-decoration: none;
+    &--title
+        font-size: 21px;
+        font-family: $serif;
+        font-weight: bold;
+        background-color: $white;
+    &--deets
+        background-color: $white;      
+        small
+            font-style: italic;      
