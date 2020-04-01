@@ -15,7 +15,6 @@ $serif: 'Lora', serif;
 html, body, #root
     height: 100%;
     margin: 0;
-    font-family: $sansSerif;
 
 .home-hero
     background-image: url('./img/DSCF5491.jpg');
@@ -97,12 +96,12 @@ html, body, #root
         color: $white;
         p
             font-family: $serif; 
-        #animation_container, #canvas, #dom_overlay_container
-            width: 50%!important;
+        #animation_container, #dom_overlay_container
+            width: 75%!important;
             height: auto!important;
         @include media-breakpoint-only(xl)
-            #animation_container, #canvas, #dom_overlay_container
-                width: 50%!important;
+            #animation_container, #dom_overlay_container
+                width: 75%!important;
                 height: auto!important;
     &--text
         background-color: $dark;
@@ -122,6 +121,9 @@ html, body, #root
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
+        @include media-breakpoint-down(sm)
+            height: 600px;
     &--links
         border-top: 1px solid rgba(250, 250, 255, 0.2);
         width: auto;
@@ -136,19 +138,40 @@ html, body, #root
                 cursor: pointer;
                 text-decoration: none;
                 font-size: 1.5rem;
+                @include media-breakpoint-down(sm)
+                    font-size: 1.2rem;
+
 
 [data-scroll] 
-    transition: opacity 1s, padding-right 1s;
+    transition: opacity 1s, margin-right 1s;
         
 
 [data-scroll="in"] 
     opacity: 1;
     left: 0;
-    padding-right: 15px!important;
+    margin-right: 15px!important;
         
 
 [data-scroll="out"] 
     opacity: 0;
     left: 25px;
-    padding-right: 75px!important;
+    margin-right: 75px!important;
+
+
+#canvas[data-scroll] 
+    transition: top 5s, width 5s, left 5s, height 5s, opacity .5s;
+
+#canvas[data-scroll="in"] 
+    top: 200px;
+    width: 75%!important;
+    height: auto!important;
+    left: 120px;
+    opacity: 1;
+
+#canvas[data-scroll="out"] 
+    top: 150px;
+    width: 10px!important;
+    height: 10px!important;
+    left: 120px;
+    opacity: 0;
         

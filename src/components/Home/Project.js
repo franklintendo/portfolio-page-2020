@@ -4,8 +4,8 @@ import { Col } from "react-bootstrap";
 const renderProjects = (items) => {
 
     return items.map(item => 
-        <Col md={6} lg={4} xl={3} className="mb-4" key={item.id} data-scroll>
-                <div className="h-100 projects--card px-0 pt-0 text-center" style={{}}>
+        <Col md={6} lg={4} xl={3} className="mb-4" key={item.id}>
+                <div className="h-100 projects--card px-0 pt-0 text-center" style={{}} data-scroll>
                 <div className="projects--img-container">
                 <img src={item.image} alt="Mad Libs" className="w-100"/>
                 </div>

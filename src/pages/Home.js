@@ -11,13 +11,6 @@ function Home() {
             <Hero />
             <Projects />
             <Bio />
-            <Container fluid className="py-0">
-                  <Row className="">
-                        <Col className="" style={{backgroundColor: "red"}}>
-                              Hi
-                        </Col>
-                  </Row>
-            </Container>
         </div>
         
     )
