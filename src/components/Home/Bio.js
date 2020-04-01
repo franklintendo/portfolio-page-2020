@@ -6,7 +6,7 @@ function Bio() {
     return(
         <Container fluid className="bio--container py-0 h-100">
                   <Row className="h-100">
-                        <Col md={6} xl={5} className="bio--text my-auto text-justify text-sm-center text-md-left text-lg-center px-5 py-5">
+                        <Col md={6} xl={5} className="bio--text my-auto text-left text-sm-center text-md-left text-lg-center px-sm-5 py-5">
                             <img className="rounded-circle mb-3" src={require('../../sass/img/bio-pic.jpg')} alt="Frank Moran" style={{width: "300px", height: "300px"}} />
                                 <p className="bio--title">Hi! My name is Francis Moran.</p>
                                 <p><span style={{fontWeight: "bold"}}>I am a full stack web developer and designer based in New York City</span>. I have professional experience building websites and email templates from the design phase to deployment.</p>
