@@ -11,8 +11,19 @@ function Hero() {
                         <span><i className="fas fa-code"></i> Full Stack Development</span> <br/> 
                         <span><i className="fas fa-palette"></i> Web &amp; Graphic Design</span> 
                     </p>
+
+                    
                 </Col>
             </Row>
+            <div className="home-hero--links py-3 px-2 px-md-3">
+                <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="https://www.linkedin.com/in/francis-moran-63970665/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
+
+                <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="https://github.com/franklintendo" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
+
+                <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="https://www.instagram.com/favlonmaurice/" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram"></i></a>
+
+                <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="mailto:info@francisfrankmoran.com" rel="noopener noreferrer" target="_blank"><i className="fas fa-envelope"></i></a>
+            </div>
         </Container>
         
     )

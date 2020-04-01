@@ -34,6 +34,36 @@ html, body, #root
     &-desc
         font-size: 2.5rem;
         font-family: $serif;
+    &--links
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-top-right-radius: 0.75rem;
+        border-bottom-right-radius: 0.75rem;
+        border-top-left-radius: 0rem;
+        -webkit-box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.2);
+        -moz-box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.2);
+        box-shadow: 5px 5px 5px -4px rgba(102,102,102,0.2); 
+        @include media-breakpoint-down(sm)
+            bottom: 0;
+            right: 0;
+            top: auto;
+            margin: auto;
+            border-top-right-radius: 0.75rem;
+            border-top-left-radius: 0.75rem;
+            border-bottom-right-radius: 0;
+        a
+            color: #FFFFFF;
+            transition: color 0.3s, font-size 0.3s, opacity 0.3s;
+            font-size: 1.6rem;
+            opacity: 0.6;
+            &:hover
+                color: $red;
+                opacity: 1;
+                font-size: 1.9rem;
+                cursor: pointer;
+                text-decoration: none;
     a 
         color: #FFFFFF;
 
@@ -149,7 +179,7 @@ html, body, #root
 [data-scroll="in"] 
     opacity: 1;
     left: 0;
-    margin-right: 15px!important;
+    margin-right: 0px!important;
         
 
 [data-scroll="out"] 
