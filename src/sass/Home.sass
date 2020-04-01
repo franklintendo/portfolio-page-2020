@@ -37,6 +37,13 @@ html, body, #root
         font-family: $serif;
     a 
         color: #FFFFFF;
+        
+@include media-breakpoint-only(xs)
+    .home-hero
+        &-title
+            font-size: 3.5rem;
+        &-desc
+            font-size: 1.5rem;
 
 .projects
     &--container
@@ -132,11 +139,12 @@ html, body, #root
                 cursor: pointer;
                 text-decoration: none;
                 font-size: 1.5rem;
-    
 
-@include media-breakpoint-only(xs)
-    .home-hero
-        &-title
-            font-size: 3.5rem;
-        &-desc
-            font-size: 1.5rem;
+[data-scroll] 
+  transition: opacity 1s;
+
+[data-scroll="in"] 
+  opacity: 1;
+
+[data-scroll="out"] 
+  opacity: 0;

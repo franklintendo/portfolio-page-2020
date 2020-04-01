@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col } from "react-bootstrap";
+import ScrollOut from "scroll-out";
+
 
 const renderProjects = (items) => {
     return items.map(item => 
