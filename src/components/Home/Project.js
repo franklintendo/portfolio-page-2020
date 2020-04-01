@@ -1,11 +1,10 @@
 import React from 'react';
 import { Col } from "react-bootstrap";
-import ScrollOut from "scroll-out";
-
 
 const renderProjects = (items) => {
+
     return items.map(item => 
-        <Col md={6} lg={4} xl={3} className="mb-4">
+        <Col md={6} lg={4} xl={3} className="mb-4" key={item.id} data-scroll>
                 <div className="h-100 projects--card px-0 pt-0 text-center" style={{}}>
                 <div className="projects--img-container">
                 <img src={item.image} alt="Mad Libs" className="w-100"/>
@@ -16,9 +15,9 @@ const renderProjects = (items) => {
                 <small>{item.deets.small}</small>
                 </p>
                     <div className="projects--links-container py-3 w-100">
-                        <a className="projects--link px-3 py-2" href={item.demo} rel="noopener noreferrer" target="_blank"><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;Demo</a>
+                        <a className="projects--link px-3 py-2" href={item.demo} rel="noopener noreferrer" target="_blank"><i className="fas fa-laptop-code"></i>&nbsp;&nbsp;Demo</a>
                         &nbsp;&nbsp;&nbsp;
-                        <a className="projects--link px-3 py-2" href={item.github} rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a>
+                        <a className="projects--link px-3 py-2" href={item.github} rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i>&nbsp;&nbsp;Github</a>
                     </div>
                 </div>
         </Col>

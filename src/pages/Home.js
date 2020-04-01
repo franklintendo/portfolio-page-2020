@@ -11,9 +11,9 @@ function Home() {
             <Hero />
             <Projects />
             <Bio />
-            <Container fluid className="py-0 h-100">
-                  <Row className="h-100">
-                        <Col md={6} xl={5} className="">
+            <Container fluid className="py-0">
+                  <Row className="">
+                        <Col className="" style={{backgroundColor: "red"}}>
                               Hi
                         </Col>
                   </Row>

@@ -37,7 +37,7 @@ html, body, #root
         font-family: $serif;
     a 
         color: #FFFFFF;
-        
+
 @include media-breakpoint-only(xs)
     .home-hero
         &-title
@@ -119,12 +119,9 @@ html, body, #root
     &--animation
         background-color: $blue;
         background-image: url('./img/animation-background.jpg');
-        // background-size: cover;
-        // background-position: center bottom;
-        background-attachment: fixed;
-        background-position: right top;
+        background-position: center top;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     &--links
         border-top: 1px solid rgba(250, 250, 255, 0.2);
         width: auto;
@@ -141,10 +138,17 @@ html, body, #root
                 font-size: 1.5rem;
 
 [data-scroll] 
-  transition: opacity 1s;
+    transition: opacity 1s, padding-right 1s;
+        
 
 [data-scroll="in"] 
-  opacity: 1;
+    opacity: 1;
+    left: 0;
+    padding-right: 15px!important;
+        
 
 [data-scroll="out"] 
-  opacity: 0;
+    opacity: 0;
+    left: 25px;
+    padding-right: 75px!important;
+        
