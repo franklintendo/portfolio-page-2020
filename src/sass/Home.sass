@@ -24,7 +24,9 @@ html, body, #root
     background-size: cover;
     background-color: $dark;
     color: white;
-    text-shadow: -1px -1px 5px rgba(255, 255, 255, 0.1), 1px 1px 5px rgba(0, 0, 0, 0.5);;
+    text-shadow: -1px -1px 5px rgba(255, 255, 255, 0.1), 1px 1px 5px rgba(0, 0, 0, 0.5);
+    @supports (-webkit-overflow-scrolling: touch)
+        background-attachment: scroll;
     .row 
         background-color: rgba(0, 0, 0, 0.4);
     &-title 
