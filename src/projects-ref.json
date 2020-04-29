@@ -1,8 +1,9 @@
 [
+
       {
         "id": 99,
         "title": "SingAlong Karaoke",
-        "image": "./img/projects/sing-along-karaoke.jpg",
+        "image": "./img/projects/book-search.jpg",
         "deets": {
             "small": "Includes: React, MySQL, Express, Node.js, Bootstrap, Javascript",
             "text": "Search and save popular karaoke songs."
@@ -54,6 +55,17 @@
       "demo": "https://sleepy-ridge-45932.herokuapp.com/",
       "github": "https://github.com/franklintendo/burger-logger"
     },
+    // {
+    //     "id": 5,
+    //     "title": "The Viral Effect",
+    //     "image": "./img/projects/the-viral-effect.jpg",
+    //     "deets": {
+    //         "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js, World Trading Data API",
+    //         "text": "Track the impact of COVID-19 on industries in the US."
+    //       },
+    //     "demo": "https://hidden-everglades-28296.herokuapp.com/home",
+    //     "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
+    // },
     {
         "id": 6,
         "title": "Coding Quiz Challenge",
