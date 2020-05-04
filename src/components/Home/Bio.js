@@ -15,7 +15,7 @@ function Bio() {
 
                                 <p data-scroll>Outside of my professional work, I enjoy playing music and working on different multimedia projects such as animation and video editing.</p>
 
-                                <p className="bio--links mt-3 d-inline-block px-5 pt-3" data-scroll>          
+                                <p className="bio--links mt-3 d-inline-block px-lg-5 pt-3" data-scroll>          
                                     <a className="px-3 d-inline-block" href="https://www.linkedin.com/in/francis-moran-63970665/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</a>
 
                                     <a className="px-3 d-inline-block" href="https://github.com/franklintendo" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i>&nbsp;&nbsp;Github</a>
@@ -23,6 +23,8 @@ function Bio() {
                                     <a className="px-3 d-inline-block" href="https://www.instagram.com/favlonmaurice/" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</a>
 
                                     <a className="px-3 d-inline-block" href="mailto:info@francisfrankmoran.com" rel="noopener noreferrer" target="_blank"><i className="fas fa-envelope"></i>&nbsp;&nbsp;Email</a>
+
+                                    <a className="px-3 d-inline-block d-md-block" href="/francis_moran_resume.pdf" rel="noopener noreferrer" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;&nbsp;Resume</a>
                                 </p>
                         </Col>
                         <Col md={6} xl={7} className="bio--animation">

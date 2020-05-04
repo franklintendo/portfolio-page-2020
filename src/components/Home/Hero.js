@@ -23,6 +23,8 @@ function Hero() {
                 <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="https://www.instagram.com/favlonmaurice/" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram"></i></a>
 
                 <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="mailto:info@francisfrankmoran.com" rel="noopener noreferrer" target="_blank"><i className="fas fa-envelope"></i></a>
+
+                <a className="d-inline-block d-md-block mx-3 mx-md-0 mb-md-2" href="/francis_moran_resume.pdf" rel="noopener noreferrer" target="_blank"><i class="fas fa-file-pdf"></i></a>
             </div>
         </Container>
         
