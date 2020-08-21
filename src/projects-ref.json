@@ -1,102 +1,113 @@
 [
-
-      {
-        "id": 99,
-        "title": "SingAlong Karaoke",
-        "image": "./img/projects/book-search.jpg",
-        "deets": {
-            "small": "Includes: React, MySQL, Express, Node.js, Bootstrap, Javascript",
-            "text": "Search and save popular karaoke songs."
-          },
-        "demo": "https://shrouded-cliffs-43407.herokuapp.com/",
-        "github": "https://github.com/MarciaAdler/KaraokeApp"
-    },
-    {
-        "id": 1,
-        "title": "Holiday Mad Libs",
-        "image": "./img/projects/mad-libs.jpg",
-        "deets": {
-            "small": "Includes: React, React Bootstrap, Sass",
-            "text": "Enter in text to generate festive stories."
-          },
-        "demo": "https://franklintendo.github.io/holiday-mad-libs/",
-        "github": "https://github.com/franklintendo/holiday-mad-libs"
-    },
-    {
-        "id": 2,
-        "title": "Books Search",
-        "image": "./img/projects/book-search.jpg",
-        "deets": {
-            "small": "Includes: MongoDB, Express, Node.js, React, Bootstrap, Google Books API",
-            "text": "Find and save books."
-          },
-        "demo": "https://stark-falls-12658.herokuapp.com/",
-        "github": "https://github.com/franklintendo/google-books-search"
-    },
-    {
-        "id": 4,
-        "title": "Weather Dashboard",
-        "image": "./img/projects/weather-dashboard.jpg",
-        "deets": {
-            "small": "Includes: jQuery, Bootstrap, OpenWeather API",
-            "text": "Check weather conditions by city."
-          },
-        "demo": "https://franklintendo.github.io/homework-6-weather-dashboard/",
-        "github": "https://github.com/franklintendo/homework-6-weather-dashboard"
-    },
-    {
-      "id": 3,
-      "title": "Burger Logger",
-      "image": "./img/projects/burger-logger.jpg",
+  {
+    "id": 34,
+    "title": "The Florida Man Files",
+    "image": "./img/projects/mad-libs.jpg",
+    "deets": {
+        "small": "Includes: React, React Bootstrap, Sass, Javascript",
+        "text": "Review the case files and video footage of crimes committed by Florida men."
+      },
+    "demo": "https://florida.francisfrankmoran.com/",
+    "github": "https://github.com/franklintendo/florida-man-files"
+},
+  {
+      "id": 1,
+      "title": "Holiday Mad Libs",
+      "image": "./img/projects/mad-libs.jpg",
       "deets": {
-          "small": "Includes: MySQL, Node.js, jQuery, Bootstrap, Express Handlebars",
-          "text": "Add your own burgers to devour."
+          "small": "Includes: React, React Bootstrap, Sass, Javascript",
+          "text": "Enter in text to generate festive stories."
         },
-      "demo": "https://sleepy-ridge-45932.herokuapp.com/",
-      "github": "https://github.com/franklintendo/burger-logger"
-    },
-    // {
-    //     "id": 5,
-    //     "title": "The Viral Effect",
-    //     "image": "./img/projects/the-viral-effect.jpg",
-    //     "deets": {
-    //         "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js, World Trading Data API",
-    //         "text": "Track the impact of COVID-19 on industries in the US."
-    //       },
-    //     "demo": "https://hidden-everglades-28296.herokuapp.com/home",
-    //     "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
-    // },
-    {
-        "id": 6,
-        "title": "Coding Quiz Challenge",
-        "image": "./img/projects/coding-quiz.jpg",
-        "deets": {
-            "small": "Includes: Javascript, Bootstrap",
-            "text": "Answer multiple choice questions about coding to rack up a high score."
-          },
-        "demo": "https://franklintendo.github.io/homework-4-code-quiz/",
-        "github": "https://github.com/franklintendo/homework-4-code-quiz"
-    },
-    {
-        "id": 7,
-        "title": "Employee Summary Generator",
-        "image": "./img/projects/employee-summary.gif",
-        "deets": {
-            "small": "Includes: Node.js, Inquirer",
-            "text": "A Node command-line interface that generates a team page in HTML."
-          },
-        "demo": "https://youtu.be/t-sPqBDT3xw",
-        "github": "https://github.com/franklintendo/employee-summary"
-    },
-    {
-        "id": 8,
-        "title": "The Cinefile",
-        "image": "./img/projects/the-cinefile.jpg",
-        "deets": {
-            "small": "Includes: jQuery, Bootstrap, TMDb API, OMDb API",
-            "text": "Filter through top-rated movies by genre, date, and audience."
-          },
-        "demo": "https://franklintendo.github.io/the-cinefile/recommendations.html",
-        "github": "https://github.com/franklintendo/the-cinefile"
-    }
+      "demo": "https://franklintendo.github.io/holiday-mad-libs/",
+      "github": "https://github.com/franklintendo/holiday-mad-libs"
+  },
+  {
+      "id": 4,
+      "title": "Weather Dashboard",
+      "image": "./img/projects/weather-dashboard.jpg",
+      "deets": {
+          "small": "Includes: jQuery, Bootstrap, OpenWeather API",
+          "text": "Check weather conditions by city."
+        },
+      "demo": "https://franklintendo.github.io/homework-6-weather-dashboard/",
+      "github": "https://github.com/franklintendo/homework-6-weather-dashboard"
+  },
+
+  {
+    "id": 2,
+    "title": "Books Search",
+    "image": "./img/projects/book-search.jpg",
+    "deets": {
+        "small": "Includes: MongoDB, Express, Node.js, React, Bootstrap, Google Books API",
+        "text": "Find and save books."
+      },
+    "demo": "https://stark-falls-12658.herokuapp.com/",
+    "github": "https://github.com/franklintendo/google-books-search"
+},
+  {
+    "id": 99,
+    "title": "SingAlong Karaoke",
+    "image": "./img/projects/sing-along-karaoke.jpg",
+    "deets": {
+        "small": "Includes: React, MySQL, Express, Node.js, Bootstrap, Javascript",
+        "text": "Search and save popular karaoke songs."
+      },
+    "demo": "https://shrouded-cliffs-43407.herokuapp.com/",
+    "github": "https://github.com/MarciaAdler/KaraokeApp"
+},
+  {
+    "id": 3,
+    "title": "Burger Logger",
+    "image": "./img/projects/burger-logger.jpg",
+    "deets": {
+        "small": "Includes: MySQL, Node.js, jQuery, Bootstrap, Express Handlebars",
+        "text": "Add your own burgers to devour."
+      },
+    "demo": "https://sleepy-ridge-45932.herokuapp.com/",
+    "github": "https://github.com/franklintendo/burger-logger"
+  },
+  {
+      "id": 6,
+      "title": "Coding Quiz Challenge",
+      "image": "./img/projects/coding-quiz.jpg",
+      "deets": {
+          "small": "Includes: Javascript, Bootstrap",
+          "text": "Answer multiple choice questions about coding to rack up a high score."
+        },
+      "demo": "https://franklintendo.github.io/homework-4-code-quiz/",
+      "github": "https://github.com/franklintendo/homework-4-code-quiz"
+  },
+  {
+      "id": 7,
+      "title": "Employee Summary Generator",
+      "image": "./img/projects/employee-summary.gif",
+      "deets": {
+          "small": "Includes: Node.js, Inquirer",
+          "text": "A Node command-line interface that generates a team page in HTML."
+        },
+      "demo": "https://youtu.be/t-sPqBDT3xw",
+      "github": "https://github.com/franklintendo/employee-summary"
+  },
+  {
+      "id": 8,
+      "title": "The Cinefile",
+      "image": "./img/projects/the-cinefile.jpg",
+      "deets": {
+          "small": "Includes: jQuery, Bootstrap, TMDb API, OMDb API",
+          "text": "Filter through top-rated movies by genre, date, and audience."
+        },
+      "demo": "https://franklintendo.github.io/the-cinefile/recommendations.html",
+      "github": "https://github.com/franklintendo/the-cinefile"
+  },
+  {
+      "id": 5,
+      "title": "The Viral Effect",
+      "image": "./img/projects/the-viral-effect.jpg",
+      "deets": {
+          "small": "Includes: React, React Bootstrap, Sequelize, Express, Node.js, World Trading Data API",
+          "text": "Track the impact of COVID-19 on industries in the US."
+        },
+      "demo": "https://hidden-everglades-28296.herokuapp.com/home",
+      "github": "https://github.com/MarciaAdler/Project3-Viral2.0"
+  }
 ]
